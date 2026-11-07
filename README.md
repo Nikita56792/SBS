@@ -4,7 +4,7 @@ Public GitHub Pages site: https://nikita56792.github.io/SBS/
 
 Source repository: https://github.com/Nikita56792/SBS
 
-Current Android release: **12.1.5** (7 November 2026). Includes the updated participant screens and photos, session star ratings, local profile-photo compression, and the extended portrait launch artwork with side bars matching the app background. SHA-256 is published alongside the APK in `downloads/sbs-latest.apk.sha256`.
+Current Android release: **12.2.0** (7 November 2026). Android review build with the retained MSS Programme, Messages, Meetings and My Programme scenes, original chat bubbles and meeting pickers, and corrected home-logo scaling. The attendee web interface remains at its prior design pending Android review. SHA-256 is published alongside the APK in `downloads/sbs-latest.apk.sha256`.
 
 These are different URLs. The QR code encodes the **Pages URL**, including its trailing slash. Scanning it opens this download page; clicking the QR image on this page follows the device routing below.
 

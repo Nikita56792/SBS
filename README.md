@@ -4,6 +4,8 @@ Public GitHub Pages site: https://nikita56792.github.io/SBS/
 
 Source repository: https://github.com/Nikita56792/SBS
 
+Current Android release: **12.1.4** (7 November 2026). Includes the updated participant screens and photos, session star ratings, local profile-photo compression, and the extended portrait launch artwork. SHA-256 is published alongside the APK in `downloads/sbs-latest.apk.sha256`.
+
 These are different URLs. The QR code encodes the **Pages URL**, including its trailing slash. Scanning it opens this download page; clicking the QR image on this page follows the device routing below.
 
 ## Device routing

@@ -4,7 +4,7 @@ Public GitHub Pages site: https://nikita56792.github.io/SBS/
 
 Source repository: https://github.com/Nikita56792/SBS
 
-Current Android release: **12.2.3** (7 November 2026). Uses the supplied Sirius Biotech 2027 home logo. Android logo width is 128 dp; the web logo keeps its 160 CSS-pixel width. SHA-256 is published alongside the APK in `downloads/sbs-latest.apk.sha256`.
+Current Android release: **12.2.4** (7 November 2026). Includes updated icons, participant profiles, session ratings, and private chat photo attachments. SHA-256 is published alongside the APK in `downloads/sbs-latest.apk.sha256`.
 
 These are different URLs. The QR code encodes the **Pages URL**, including its trailing slash. Scanning it opens this download page; clicking the QR image on this page follows the device routing below.
 

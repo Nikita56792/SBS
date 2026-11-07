@@ -1,6 +1,6 @@
 /* Minimal service worker: network-first, cache fallback.
  * Makes the page installable as a PWA on mobile devices. */
-const CACHE = "sbs-promo-v5";
+const CACHE = "sbs-promo-v6";
 
 self.addEventListener("install", () => {
   self.skipWaiting();

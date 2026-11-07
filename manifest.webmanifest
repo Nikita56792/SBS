@@ -1,0 +1,14 @@
+{
+  "name": "Sirius Biotech Summit",
+  "short_name": "SBS",
+  "description": "Sirius Biotech Summit (SBS) event app — schedule, speakers and news feed.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5b3fd4",
+  "icons": [
+    { "src": "assets/icon-192.jpg", "sizes": "192x192", "type": "image/jpeg", "purpose": "any" },
+    { "src": "assets/icon-512.jpg", "sizes": "512x512", "type": "image/jpeg", "purpose": "any" }
+  ]
+}

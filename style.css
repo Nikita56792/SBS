@@ -1,0 +1,218 @@
+:root {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #232833;
+  overflow-x: hidden;
+}
+
+.promo__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 48px 32px;
+}
+
+/* ---------- Header ---------- */
+.promo__header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 44px;
+}
+
+.promo__logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
+.promo__title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1c2b6b;
+}
+
+/* ---------- QR card ---------- */
+.promo__qr {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  max-width: 560px;
+  background: #f4f4f7;
+  border-radius: 18px;
+  padding: 26px 28px;
+  margin-bottom: 36px;
+}
+
+.promo__qr__img {
+  flex: 0 0 auto;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.promo__qr__img img {
+  display: block;
+  width: 132px;
+  height: 132px;
+}
+
+.promo__qr__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #2a2f3a;
+}
+
+/* ---------- Download button (mobile only) ---------- */
+.promo__download {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 560px;
+  margin: 0 0 36px;
+  padding: 15px 20px;
+  border-radius: 14px;
+  background: #5b3fd4;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Mobile platform controls visibility even on full-size tablet screens. */
+.promo__download[data-mobile-platform="true"] { display: inline-flex; }
+
+.promo__download:active { opacity: 0.9; }
+
+.promo__download svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+}
+
+/* ---------- Advantages ---------- */
+.promo__adv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 34px;
+  max-width: 560px;
+  margin-bottom: 60px;
+}
+
+.promo__adv__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  line-height: 1.45;
+  color: #232833;
+}
+
+.promo__adv__icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* ---------- Footer ---------- */
+.promo__footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #9aa1ad;
+}
+
+.promo__footer__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.promo__footer__brand svg {
+  width: 15px;
+  height: 15px;
+}
+
+/* ---------- Phones ---------- */
+.promo__phones {
+  display: flex;
+  justify-content: center;
+}
+
+.promo__phones img {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 768px) {
+  .promo__inner {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 40px 22px;
+  }
+
+  .promo__phones { display: none; }
+
+  .promo__header {
+    margin-bottom: 32px;
+  }
+
+  .promo__logo {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+  }
+
+  .promo__title { font-size: 23px; }
+
+  .promo__qr {
+    padding: 22px;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+
+  .promo__qr__img img {
+    width: 112px;
+    height: 112px;
+  }
+
+  .promo__qr__text { font-size: 14px; }
+
+  .promo__download { display: inline-flex; }
+
+  .promo__adv {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+}

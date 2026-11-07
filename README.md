@@ -4,7 +4,7 @@ Public GitHub Pages site: https://nikita56792.github.io/SBS/
 
 Source repository: https://github.com/Nikita56792/SBS
 
-Current Android release: **12.2.6** (7 November 2026). Improves profile completion, navigation panels, image caching and interface spacing. SHA-256 is published alongside the APK in `downloads/sbs-latest.apk.sha256`.
+Current Android release: **12.2.7** (7 November 2026). Improves profile completion, navigation panels, image caching and interface spacing. SHA-256 is published alongside the APK in `downloads/sbs-latest.apk.sha256`.
 
 These are different URLs. The QR code encodes the **Pages URL**, including its trailing slash. Scanning it opens this download page; clicking the QR image on this page follows the device routing below.
 
